@@ -1,25 +1,29 @@
 {
-  "name": "ts-shoppingcart",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "bootstrap": "^5.2.0",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.3.0"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.1",
-    "typescript": "^4.6.4",
-    "vite": "^3.0.7"
-  }
+    "homepage": "https://kalio753.github.io/react-shop",
+    "name": "ts-shoppingcart",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "bootstrap": "^5.2.0",
+        "react": "^18.2.0",
+        "react-bootstrap": "^2.5.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.3.0"
+    },
+    "devDependencies": {
+        "@types/react": "^18.0.17",
+        "@types/react-dom": "^18.0.6",
+        "@vitejs/plugin-react": "^2.0.1",
+        "gh-pages": "^4.0.0",
+        "typescript": "^4.6.4",
+        "vite": "^3.0.7"
+    }
 }
